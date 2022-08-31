@@ -45,6 +45,29 @@ public class Ejemplo1 {
         }else{
             System.out.println("El resultado de la division es: "+(t/w));
         }
+        
+        String res = w==0 ? "La operacion no se puede realizar" : "El resultado de la division es: "+(t/w);
+        System.out.println(res);
+        
+        System.out.println("Elija un mes");
+        int mes = a.nextInt();
+        
+        switch (mes) {
+            case 1:
+                System.out.println("Enero");
+                break;
+            case 2:
+                System.out.println("Febrero");
+                break;
+            case 3:
+                System.out.println("Marzo");
+                break;
+            case 4:
+                System.out.println("Abril");
+                break;
+            default:
+                System.out.println("No existe el mes"+mes);
+        }
     }
     
 }
