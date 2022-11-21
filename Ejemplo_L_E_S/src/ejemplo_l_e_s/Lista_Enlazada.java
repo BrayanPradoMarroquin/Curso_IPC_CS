@@ -44,7 +44,7 @@ public class Lista_Enlazada {
     public void recorrer(){
         Nodo aux = this.cabeza;
         while (aux!=null) {            
-            System.out.println("El perro se llama "+aux.getNombre()+" ,tiene "+aux.getEdad()+"Kg");
+            System.out.println("El perro se llama "+aux.getNombre()+" ,tiene "+aux.getPeso()+"Kg");
             aux = aux.siguiente;
         }
     }
